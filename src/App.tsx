@@ -30,7 +30,15 @@ function App() {
         <DetailItem title="Where is it?">
           <p>
             The wedding will be on the beach in Lindos, and we'll be staying at
-            the Lindos Mare Hotel. (TODO: Map and link)
+            the{" "}
+            <a href="https://lindosmare.gr/" target="_blank">
+              Lindos Mare Hotel
+            </a>
+            . (
+            <a href="https://goo.gl/maps/JGHE2yPoH17g9jgS6" target="_blank">
+              Map
+            </a>
+            )
           </p>
         </DetailItem>
         <DetailItem title="Do we need to book the same hotel?">

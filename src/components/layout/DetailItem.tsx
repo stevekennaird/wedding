@@ -7,7 +7,9 @@ interface DetailItemProps {
 function DetailItem({ title, children, colspan = undefined }: DetailItemProps) {
   return (
     <div className={colspan && colspan > 0 ? "col-span-" + colspan : ""}>
-      <span className="text-xl font-semibold mb-2 block">{title}</span>
+      <span className="text-2xl font-semibold mb-2 block fancy primary-color">
+        {title}
+      </span>
       {children}
     </div>
   );
