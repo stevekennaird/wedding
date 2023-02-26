@@ -59,5 +59,19 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- A little help for the Netlify post-processing bots -->
+    <form
+      name="rsvp-form"
+      netlify
+      netlify-honeypot="stopbot"
+      hidden
+      class="hidden"
+    >
+      <input type="name" name="name" />
+      <input type="email" name="email" />
+      <input type="weddingGuestCount" name="number" />
+      <input type="receptionGuestCount" name="number" />
+      <textarea name="comments"></textarea>
+    </form>
   </body>
 </html>
