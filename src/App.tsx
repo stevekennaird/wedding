@@ -31,11 +31,15 @@ function App() {
           <p>
             The wedding will be on the beach in Lindos, and we'll be staying at
             the{" "}
-            <a href="https://lindosmare.gr/" target="_blank">
+            <a href="https://lindosmare.gr/" target="_blank" rel="noreferrer">
               Lindos Mare Hotel
             </a>
             . (
-            <a href="https://goo.gl/maps/JGHE2yPoH17g9jgS6" target="_blank">
+            <a
+              href="https://goo.gl/maps/JGHE2yPoH17g9jgS6"
+              target="_blank"
+              rel="noreferrer"
+            >
               Map
             </a>
             )
