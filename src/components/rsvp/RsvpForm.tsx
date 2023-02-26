@@ -53,14 +53,10 @@ function RsvpForm() {
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: postData,
+      body: postData.toString(),
     })
-      .then((response) => {
-        console.log(response);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
+      .then(() => console.log("Form successfully submitted"))
+      .catch((error) => alert(error));
   };
 
   return (
@@ -97,9 +93,16 @@ function RsvpForm() {
             id="rsvp-form"
             name="rsvp"
             method="POST"
+            netlify-honeypot="stopbot"
             data-netlify="true"
             onSubmit={handleSubmit(onSubmit)}
           >
+            <p className="hidden">
+              <label>
+                If you're a real boy or girl, leave this blank:{" "}
+                <input name="stopbot" />
+              </label>
+            </p>
             <div className="form-field">
               <label htmlFor="txtName">Your name</label>
               <input
