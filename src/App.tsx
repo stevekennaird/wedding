@@ -56,25 +56,52 @@ function App() {
           <p>
             Maybe. We'll probably get over it though! Kidding...we know it's a
             lot to ask, and there's always the reception later in 2024 (date
-            TBC) which we're looking to hold in Folkestone, so just come to that
-            instead!
+            TBC) which we're looking to hold (potentially in Folkestone), so
+            just come to that instead!
           </p>
         </DetailItem>
         <DetailItem title="Who should we book with?">
-          <p>We'd recommend TUI...</p>
+          <p>
+            We've booked through{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.tui.co.uk/destinations/europe/greece/rhodes/lindos/hotels/lindos-mare-hotel.html"
+            >
+              TUI
+            </a>
+            , and if you're planning on staying in the same hotel, we'd
+            recommend you do the same. But it doesn't really matter, if you find
+            it cheaper elsewhere, good for you!
+          </p>
         </DetailItem>
-        <div>09</div>
-        <div>01</div>
-        <div>09</div>
-        <div>01</div>
-        <div>09</div>
-        <div>01</div>
-        <div>09</div>
-        <div>01</div>
-        <div>09</div>
-        <div>01</div>
-        <div>09</div>
+        <DetailItem title="How long should I come for?">
+          <p>
+            Completely up to you. We'll be there from the 15th to the 29th of
+            May, and the wedding is on the 24th.
+          </p>
+        </DetailItem>
+        <DetailItem title="What about wedding gifts?">
+          <p>
+            No need for presents. Just give us the gift of your presence{" "}
+            <span title="cheeeeese">🧀</span>
+          </p>
+        </DetailItem>
+        <DetailItem title="I have a question...">
+          <p>
+            Just send one of us a message via WhatsApp, or{" "}
+            <a href="mailto:hello@stevekennaird.com?subject=Wedding">
+              email Steve
+            </a>
+            .
+          </p>
+        </DetailItem>
       </BodyContainer>
+      <footer className="text-xs mt-4 p-4 text-center italic text-gray-400">
+        Website by Steve, in a little bit of a rush.
+        <br />
+        Don't judge me!
+      </footer>
     </div>
   );
 }

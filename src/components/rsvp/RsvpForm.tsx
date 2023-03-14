@@ -60,7 +60,7 @@ function RsvpForm() {
   };
 
   return (
-    <div className="lg:row-span-4">
+    <div className="lg:row-span-4 order-last lg:order-none">
       <h2 className="text-2xl font-semibold mb-2 block fancy primary-color">
         RSVP
       </h2>
